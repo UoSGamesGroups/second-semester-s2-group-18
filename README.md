@@ -1,4 +1,5 @@
-# Group Project - Group 18 - Blake Hewitt, Elliot Dewhurst and Guy Zawada
+# Group Project
+ Group 18 - Blake Hewitt, Elliot Dewhurst and Guy Zawada
 
 This is the repository for your group project, keep it neat and well organised with sensible folder structures.
 
