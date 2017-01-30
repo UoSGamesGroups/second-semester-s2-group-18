@@ -1,0 +1,6 @@
+Level Design Key:
+
+PU = Power Up
+P1S = Player 1 Start
+P2S = Player 2 Start
+Black space = Death
