@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             pstats.SetStamina(Mathf.Min(pstats.GetStamina() + StaminaRegenRate, PlayerStats.MaxStamina));
         }
-        Debug.Log(pstats.GetStamina());
+       // Debug.Log(pstats.GetStamina());
     }
 
     void FixedUpdate()
