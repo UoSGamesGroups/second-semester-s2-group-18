@@ -9,9 +9,9 @@ public class PlayerMovement : MonoBehaviour {
 
     public KeyCode MoveUp, MoveDown, MoveLeft, MoveRight;
     public KeyCode BoostKey;
-    public float Speed, MaxSpeed, BoostMaxSpeedMultiplier, BoostSpeedMultiplier;
+    public float PlayerVelocity, MaxVelocity, BoostVelocityMultiplier;
+    private float boostMaxVelocityMultiplier;
     public float StaminaRegenRate, StaminaDrainRate;
-    private const float SpeedMultipler = 1000; // This is used because Time.deltaTime produces a very low number.
 
     private Rigidbody2D rb;
     private PlayerStats pstats;
@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody2D>();
         pstats = GetComponent<PlayerStats>();
+        boostMaxVelocityMultiplier = BoostVelocityMultiplier * MaxVelocity;
     }
 
     // Update is called once per frame
@@ -29,7 +30,6 @@ public class PlayerMovement : MonoBehaviour {
         {
             pstats.SetStamina(Mathf.Min(pstats.GetStamina() + StaminaRegenRate, PlayerStats.MaxStamina));
         }
-       // Debug.Log(pstats.GetStamina());
     }
 
     void FixedUpdate()
@@ -54,21 +54,19 @@ public class PlayerMovement : MonoBehaviour {
 
     void Move(Vector2 direction)
     {
+        // Multiply forces added by 1000 to make up for the deltatime, since it's such a tiny number.
         if (Input.GetKey(BoostKey) && pstats.GetStamina() > 0 + float.Epsilon)
         {
-            if (rb.velocity.sqrMagnitude < MaxSpeed * MaxSpeed * BoostMaxSpeedMultiplier)
-            {
-                rb.AddForce(direction * Speed * SpeedMultipler * BoostSpeedMultiplier * Time.deltaTime);
-                pstats.SetStamina(pstats.GetStamina() - StaminaDrainRate);
-            }
+            rb.AddForce(direction * PlayerVelocity * BoostVelocityMultiplier * 1000 * Time.deltaTime);
+            pstats.SetStamina(pstats.GetStamina() - StaminaDrainRate);
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, boostMaxVelocityMultiplier);
         }
         else
         {
-            if (rb.velocity.sqrMagnitude < MaxSpeed * MaxSpeed)
-            {
-                rb.AddForce(direction * Speed * SpeedMultipler * Time.deltaTime);
-            }
+            rb.AddForce(direction * PlayerVelocity * 1000 * Time.deltaTime);
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, MaxVelocity);
         }
+
 
     }
 }

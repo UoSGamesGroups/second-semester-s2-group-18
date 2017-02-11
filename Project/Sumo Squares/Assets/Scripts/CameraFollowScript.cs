@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFollowScript : MonoBehaviour {
 
     public GameObject Player1, Player2;
+    public float CameraReturnSpeed;
 
 	// Use this for initialization
 	void Start () {
@@ -18,13 +20,21 @@ public class CameraFollowScript : MonoBehaviour {
             FixedCameraFollowSmooth(Camera.main, Player1.transform, Player2.transform);
         } else
         {
-            if(Camera.main.transform.parent == null)
+            if (LevelController.CurrentPlayers.Count == 1)
             {
-                Camera.main.transform.SetParent(GameObject.FindGameObjectWithTag("Player").transform);
-                Camera.main.transform.Translate(GameObject.FindGameObjectWithTag("Player").transform.position);
-                Camera.main.orthographicSize = 6.5f;
+                GameObject lastPlayer = LevelController.CurrentPlayers[0];
+                Camera.main.transform.SetParent(lastPlayer.transform);
+                //Camera.main.orthographicSize = 6.5f;
+                StartCoroutine(ZoomToOrthoSize(6.5f, 1.0f));
+                //Camera.main.transform.position = new Vector3(0,0,-15);
+                Camera.main.transform.position = Vector3.MoveTowards(Camera.main.transform.position, new Vector3(lastPlayer.transform.position.x, lastPlayer.transform.position.y, -15), CameraReturnSpeed * Time.deltaTime);
             }
-            Camera.main.transform.position = Vector3.MoveTowards(Camera.main.transform.position, new Vector3(Camera.main.transform.parent.transform.position.x, Camera.main.transform.parent.transform.position.x, -10), 10 * Time.deltaTime);
+            if (LevelController.CurrentPlayers.Count == 0)
+            {
+                StartCoroutine(ZoomToOrthoSize(6.5f, 1.0f));
+                Camera.main.transform.position = Vector3.MoveTowards(Camera.main.transform.position, new Vector3(0,0, -15), 
+                    CameraReturnSpeed * Time.deltaTime);
+            }
         }
 
     }
@@ -60,13 +70,16 @@ public class CameraFollowScript : MonoBehaviour {
             cam.transform.position = cameraDestination;
     }
 
-    IEnumerator MoveToCameraPos(Vector2 pos)
+    IEnumerator ZoomToOrthoSize(float orthoSize, float timeInterval)
     {
         Camera cam = Camera.main;
-        if(cam.transform.position != (Vector3)pos)
+        float i = 0.0f;
+        float rate = 1.0f / timeInterval;
+        while(i < 1.0f)
         {
-            Vector2.MoveTowards(cam.transform.position, pos, 1f);
-            yield return new WaitForSeconds(0.000001f);
+            i += Time.deltaTime * rate;
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, orthoSize, i);
+            yield break;
         }
     }
 }
