@@ -1,0 +1,7 @@
+Power ups:
+
+Speed:
+Gives the player a boost in movement speed, that lasts for 5-10 seconds. Playtesting will help to justify the final
+duration time. Possibly can be stacked with another speed boost, this would make the players speed increase by 4
+times for example, rather than 2 times.
+
