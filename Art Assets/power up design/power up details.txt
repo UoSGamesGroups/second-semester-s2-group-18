@@ -1,7 +1,23 @@
 Power ups:
 
-Speed:
+Increase Speed:
 Gives the player a boost in movement speed, that lasts for 5-10 seconds. Playtesting will help to justify the final
 duration time. Possibly can be stacked with another speed boost, this would make the players speed increase by 4
 times for example, rather than 2 times.
 
+Anchor:
+Locks the player in place. This stops them from being pushed or moved and stops them from moving too. This may
+need some adjustment, after playtesting. Duration should be between 2-6 seconds and will need to be decided after
+playtesting.
+
+Shield:
+Allows the player to deflect collision/s. Can either last for an amount of time, 3-7 seconds, or for a certain
+amount of hits, between 1-3. This should be decided after playtesting.
+
+Force Push:
+Allows the player to push the opponent away, without being too close. This distance, the push distance and when
+to use will need to be decided after playtesting.
+
+Increase Mass:
+This increases the players mass, making them harder to push. This may also make the player move slower and duration
+should be between 2-8 seconds. This can be decided during playtesting.
