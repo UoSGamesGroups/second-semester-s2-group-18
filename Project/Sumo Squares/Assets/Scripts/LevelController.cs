@@ -21,14 +21,30 @@ public class LevelController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if(collider.gameObject.tag == "Player")
+        //if(collider.gameObject.tag == "Player")
+        //{
+        //    if (collider.transform.childCount > 0)
+        //    {
+        //        collider.transform.DetachChildren();
+        //    }
+        //    Destroy(collider.gameObject);
+        //    CurrentPlayers.Remove(collider.gameObject);
+        //    GameActive = false;
+        //}
+
+        Kill(collider.gameObject);
+    }
+
+    public static void Kill(GameObject player)
+    {
+        if (player.gameObject.tag == "Player")
         {
-            if (collider.transform.childCount > 0)
+            if (player.transform.childCount > 0)
             {
-                collider.transform.DetachChildren();
+                player.transform.DetachChildren();
             }
-            Destroy(collider.gameObject);
-            CurrentPlayers.Remove(collider.gameObject);
+            Destroy(player.gameObject);
+            CurrentPlayers.Remove(player.gameObject);
             GameActive = false;
         }
     }
