@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public KeyCode MoveUp, MoveDown, MoveLeft, MoveRight;
     public KeyCode BoostKey;
+    // Todo: Make special floors change max velocity instead of changing character mass 
     public float PlayerVelocity, MaxVelocity, BoostVelocityMultiplier;
     private float boostMaxVelocityMultiplier;
     public float StaminaRegenRate, StaminaDrainRate;

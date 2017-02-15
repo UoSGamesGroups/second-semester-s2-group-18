@@ -24,6 +24,7 @@ public class SpecialFloor : MonoBehaviour {
 		
 	}
 
+    // TODO: Marsh modify stamina drain rate.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
@@ -34,7 +35,7 @@ public class SpecialFloor : MonoBehaviour {
                     collision.gameObject.GetComponent<Rigidbody2D>().mass *= 0.8f;
                     break;
                 case SpecialFloorType.Swamp:
-                    collision.gameObject.GetComponent<Rigidbody2D>().mass *= 5.4f;
+                    collision.gameObject.GetComponent<PlayerMovement>().MaxVelocity *= 0.5f;
                     break;
                 case SpecialFloorType.Lava:
                     LevelController.Kill(collision.gameObject);
@@ -53,7 +54,7 @@ public class SpecialFloor : MonoBehaviour {
                     collision.gameObject.GetComponent<Rigidbody2D>().mass /= 0.8f;
                     break;
                 case SpecialFloorType.Swamp:
-                    collision.gameObject.GetComponent<Rigidbody2D>().mass /= 5.4f;
+                    collision.gameObject.GetComponent<PlayerMovement>().MaxVelocity /= 0.5f;
                     break;
             } 
         }
