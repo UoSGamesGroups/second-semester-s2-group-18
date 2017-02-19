@@ -1,29 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
+﻿using UnityEngine.UI;
 using UnityEngine;
 
-public class UIController : MonoBehaviour {
+/// <summary>
+/// The main UI controller.
+/// </summary>
+public class UIController : MonoBehaviour
+{
     public GameObject Player1;
     public GameObject Player2;
-    public Slider[] PlayerSliders = new Slider[2];
-    private PlayerStats ps1, ps2;
+    public Slider[] PlayerStaminaSliders = new Slider[2];
 
-	// Use this for initialization
-	void Start () {
-        ps1 = Player1.GetComponent<PlayerStats>();
-        ps2 = Player2.GetComponent<PlayerStats>();
+    // Used to access each of the players stats.
+    private PlayerStats _ps1, _ps2;
 
-        foreach(var slider in PlayerSliders)
+    // Use this for initialization
+    void Start()
+    {
+        _ps1 = Player1.GetComponent<PlayerStats>();
+        _ps2 = Player2.GetComponent<PlayerStats>();
+
+        foreach (var slider in PlayerStaminaSliders)
         {
             slider.maxValue = PlayerStats.MaxStamina;
             slider.value = slider.maxValue;
         }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        PlayerSliders[0].value = ps1.GetStamina();
-        PlayerSliders[1].value = ps2.GetStamina();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        PlayerStaminaSliders[0].value = _ps1.GetStamina();
+        PlayerStaminaSliders[1].value = _ps2.GetStamina();
     }
 }

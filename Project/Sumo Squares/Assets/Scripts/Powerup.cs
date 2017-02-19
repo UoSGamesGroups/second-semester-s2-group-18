@@ -1,26 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Powerup : MonoBehaviour {
-
+/// <summary>
+/// This is the abstract powerup class that should be implemented by all powerup types.
+/// </summary>
+public abstract class Powerup : MonoBehaviour
+{
+    /// <summary>
+    /// The rate at which the gameobject will rotate.
+    /// </summary>
     public float PassiveRotateSpeed;
 
-	// Use this for initialization
-	void Start () {
-        PowerupManager.Instance.Powerups.Add(this);
-        print("Added new powerup! Current number of powerups is " + PowerupManager.Instance.Powerups.Count);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        transform.Rotate(0, 0, 200 * Time.deltaTime);
-	}
-
-    public void Consume(GameObject player)
+    // Use this for initialization
+    void Start()
     {
-        // Code here to do what happens.
-        print(player.name + " picked up a powerup named " + this.gameObject.name);
-        Destroy(this.gameObject);
+        PowerupManager.Instance.AvailablePowerups.Add(this);
+        print("Added new powerup! Current number of powerups is " + PowerupManager.Instance.AvailablePowerups.Count);
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Rotate(0, 0, 200 * PassiveRotateSpeed * Time.deltaTime);
+    }
+
+    /// <summary>
+    /// This method should implement the functionality of what happens when a player consumes (picks up) a powerup.
+    /// </summary>
+    /// <param name="player">The player picking up the powerup.</param>
+    public abstract void Consume(GameObject player);
 }

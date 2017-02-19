@@ -1,26 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Player : MonoBehaviour {
+/// <summary>
+/// The main player class.
+/// </summary>
+public class Player : MonoBehaviour
+{
+    // Use this for initialization
+    void Start()
+    {
+    }
 
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Update is called once per frame
+    void Update()
+    {
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Powerup")
+        if (other.gameObject.CompareTag("Powerup"))
         {
             print("Touched a powerup");
-            other.GetComponent<Powerup>().Consume(this.gameObject);
+            other.GetComponent<Powerup>().Consume(gameObject);
         }
     }
 }
