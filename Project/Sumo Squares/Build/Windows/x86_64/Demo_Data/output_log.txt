@@ -1,0 +1,125 @@
+Mono path[0] = 'C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data/Managed'
+Mono path[1] = 'C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data/Mono'
+Mono config path = 'C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55251
+Multi-casting "[IP] 10.0.1.9 [Port] 55251 [Flags] 2 [Guid] 2818105333 [EditorId] 3318328142 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-KT6LFKJ) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55251]
+PlayerConnection already initialized - listening to [0.0.0.0:55251]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8119 MB
+    Driver:   21.21.13.7866
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.022 seconds
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.992730 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.309588 ms
+System memory in use before: 17.7 MB.
+System memory in use after: 17.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 373.
+Total: 0.175926 ms (FindLiveObjects: 0.019287 ms CreateObjectMapping: 0.007305 ms MarkObjects: 0.138228 ms  DeleteObjects: 0.009059 ms)
+
+Touched a powerup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Player:OnTriggerEnter2D(Collider2D) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\Player.cs:21)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/Player.cs Line: 21)
+
+Player  Player 2 ate a mass powerup: MassPowerup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MassPowerup:Consume(GameObject) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\MassPowerup.cs:16)
+Player:OnTriggerEnter2D(Collider2D) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\Player.cs:23)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/MassPowerup.cs Line: 16)
+
+Touched a powerup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object)
+Player:OnTriggerEnter2D(Collider2D) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\Player.cs:21)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/Player.cs Line: 21)
+
+Player  Player 2 ate an anchor powerup: AnchorPowerup
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AnchorPowerup:Consume(GameObject) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\AnchorPowerup.cs:15)
+Player:OnTriggerEnter2D(Collider2D) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\Player.cs:23)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/AnchorPowerup.cs Line: 15)
+
+Frozen player: Player 2 at 13.2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<FreezePlayer>c__Iterator0:MoveNext() (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\PlayerMovement.cs:103)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\MonoBehaviourBindings.gen.cs:54)
+PlayerMovement:Freeze(Single) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\PlayerMovement.cs:92)
+AnchorPowerup:Consume(GameObject) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\AnchorPowerup.cs:17)
+Player:OnTriggerEnter2D(Collider2D) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\Player.cs:23)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/PlayerMovement.cs Line: 103)
+
+2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<FreezePlayer>c__Iterator0:MoveNext() (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\PlayerMovement.cs:106)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\MonoBehaviourBindings.gen.cs:54)
+PlayerMovement:Freeze(Single) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\PlayerMovement.cs:92)
+AnchorPowerup:Consume(GameObject) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\AnchorPowerup.cs:17)
+Player:OnTriggerEnter2D(Collider2D) (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\Player.cs:23)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/PlayerMovement.cs Line: 106)
+
+Unfroze player: Player 2 at 15.20668
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<FreezePlayer>c__Iterator0:MoveNext() (at C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Assets\Scripts\PlayerMovement.cs:109)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at C:\buildslave\unity\build\Runtime\Export\Coroutines.cs:17)
+ 
+(Filename: C:/Users/lyut/Desktop/Uni/second-semester-s2-group-18/Project/Sumo Squares/Assets/Scripts/PlayerMovement.cs Line: 109)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1260 -> priority: 1 

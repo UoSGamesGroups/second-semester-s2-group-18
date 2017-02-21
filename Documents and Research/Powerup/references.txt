@@ -1,0 +1,62 @@
+References
+
+Speed Boost (increases player speed):
+
+https://i.ytimg.com/vi/t3QQG5vkBDI/maxresdefault.jpg
+http://vignette4.wikia.nocookie.net/kirby/images/5/56/KAR_Patch_Boost.png/revision/latest?cb=20120131225743&path-prefix=en
+https://wreckageuk.files.wordpress.com/2015/03/speed-sprite.png
+http://images.akamai.steamusercontent.com/ugc/53249202068908293/C95DAC277413BB6532DCC3A217811EC1B17BEDE2/
+http://images.akamai.steamusercontent.com/ugc/538521037951012620/140E9ABA20E8DC0394BE6AC82DE3A57A7BD569CE/
+http://pixelartmaker.com/art/2f716783fd1e87b.png
+http://vignette1.wikia.nocookie.net/blurgame/images/e/ea/Nitro.png/revision/latest?cb=20100510210432
+
+Increase Mass (player weighs more and is harder to push):
+
+https://s-media-cache-ak0.pinimg.com/736x/9f/43/1c/9f431c1c3014d374bb8bc5c4463e9323.jpg
+https://s-media-cache-ak0.pinimg.com/564x/e7/2b/83/e72b83cbb0baa94286687a63a313c0e4.jpg
+http://img.zcool.cn/community/03304a9554c7ca300000158fc84ceb7.jpg
+https://www.spriters-resource.com/resources/sheets/73/76363.png
+https://ryanmarkel.com/wp-content/uploads/2012/09/mario_items.jpg
+http://2.bp.blogspot.com/-KcH9qQKJJOw/Uttkv3vylrI/AAAAAAAABD4/N549l4_4KKM/s1600/Unwell_Mel_gamepieces.png
+https://pbs.twimg.com/media/Bxax9oFIgAAp4vb.png
+http://68.media.tumblr.com/13021c661d926c8e11a6dff9c13b8291/tumblr_mzzew0260g1tp1r7eo1_1280.png
+https://tcrf.net/images/a/ad/ABPCpowerupbuttons.png
+https://s-media-cache-ak0.pinimg.com/564x/d2/7f/ec/d27fec7e89b653e618fa6c1c91c268cc.jpg
+http://cdn.akamai.steamstatic.com/steam/apps/436870/extras/powerUp.png?t=1460687882
+http://www.adweek.com/core/wp-content/uploads/sites/2/2011/09/Fluffy-Birds-Flash-Items.jpg
+
+
+Anchor (locks the player in place and stops them from being pushed):
+
+http://combiboilersleeds.com/image.php?pic=/images/anchor/anchor-3.jpg
+http://www.clipartster.com/images/303/girly-anchors-drawings-anchor-pictures-viewing-ugPPJr-clipart.png
+https://s-media-cache-ak0.pinimg.com/736x/c2/21/03/c2210374dc28a48baa68fb278cc67e0f.jpg
+https://s-media-cache-ak0.pinimg.com/236x/d4/2e/65/d42e65b69f077e6e5e847cc794a84981.jpg
+http://www.merry-christmas.com/images/christmas_symbols/anchor.gif
+http://nycboatclub.com/wp-content/uploads/2014/07/ANCHOR.jpg
+http://media.vector4free.com/mini/pixel77-vector-anchor-1041-270x200.jpg
+http://www.createworks.co.uk/ekmps/shops/createworks/images/ship-s-anchor-wall-sticker-wall-art-nautical-themed-decoration-h615k-[2]-17235-p.jpg
+
+Shield (deflects collision/s):
+
+http://www.merixstudio.pl/case-studies/skytte/images/power_up_shield.png
+http://www.nakedpenguinboy.com/wp-content/uploads/2016/04/rack-up_power-up_shield.png
+http://orcattack.thehobbit.com/img/optimised/powerup-shield.png
+http://www.shiprunnergame.com/wp-content/uploads/2016/10/ShieldPickup.png
+https://ubistatic19-a.akamaihd.net/resource/en-US/game/forhonor/fh-game/fh_wofRewards_ChampionLarge_ncsa.jpg
+https://d2sx9mrt4zumaq.cloudfront.net/wp-content/uploads/2015/02/SotA_UA_DarkElvenKinsmanBuckler_set.jpg
+http://www.shieldpowerlist.com/wp-content/uploads/2016/05/101-Super-Human-Speed.gif
+https://s-media-cache-ak0.pinimg.com/736x/26/82/fa/2682fa3f86525ae00f0dc014968234f5.jpg
+
+Force push (player emits a force that pushes the opponent a large distance away):
+
+https://martinchng.files.wordpress.com/2013/02/power-ups-animation.png
+http://i.imgur.com/QCAeCT6.png
+http://ps3media.ign.com/ps3/image/article/101/1014178/blur-20090814001650337.jpg
+https://s-media-cache-ak0.pinimg.com/736x/ee/11/2f/ee112f59a1cb131731ce8058ccc2f3bb.jpg
+http://1.bp.blogspot.com/-1Whd-LSCpPo/UYnqdGjf3hI/AAAAAAAACyg/_4B8QLI2JFc/s1600/dots+power+ups.jpg
+http://www.gamezebo.com/wp-content/uploads/2012/07/a/8827-MR004.jpg
+https://2.bp.blogspot.com/-E7D3EI-Qrwo/VzUCpLVEqjI/AAAAAAAAG7A/opTso519Ke0DPUiNX_p3W9EiSMP0afeWgCLcB/s1600/Hovercraft%2BTakedown%2BMinecraft%2BRacing%2BEdition%2Bjilaxzone%2Bselect%2Bpowerups.png
+https://cms-assets.tutsplus.com/uploads/users/41/posts/25882/image/15-icons-1.jpg
+https://s-media-cache-ak0.pinimg.com/736x/9f/43/1c/9f431c1c3014d374bb8bc5c4463e9323.jpg
+http://img.zcool.cn/community/03304a9554c7ca300000158fc84ceb7.jpg

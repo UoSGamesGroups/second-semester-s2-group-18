@@ -24,4 +24,6 @@ public sealed class PowerupManager : MonoBehaviour
     {
         get { return instance; }
     }
+
+
 }

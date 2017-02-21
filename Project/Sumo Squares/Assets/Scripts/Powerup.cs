@@ -14,7 +14,6 @@ public abstract class Powerup : MonoBehaviour
     void Start()
     {
         PowerupManager.Instance.AvailablePowerups.Add(this);
-        print("Added new powerup! Current number of powerups is " + PowerupManager.Instance.AvailablePowerups.Count);
     }
 
     // Update is called once per frame

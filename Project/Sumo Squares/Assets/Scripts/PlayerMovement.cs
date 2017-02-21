@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 /// <summary>
 /// The main player movement controller.
@@ -84,5 +85,28 @@ public class PlayerMovement : MonoBehaviour
             _rb.AddForce(direction * PlayerVelocity * 1000 * Time.deltaTime);
             _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, MaxVelocity);
         }
+    }
+
+    public void Freeze(float duration)
+    {
+        StartCoroutine(FreezePlayer(duration));
+    }
+
+    /// <summary>
+    /// Constrains translation and rotation of the player for the given duration.
+    /// </summary>
+    /// <param name="player">The player to be constrained</param>
+    /// <param name="duration">The duration for the player to be constrained.</param>
+    /// <returns></returns>
+    private IEnumerator FreezePlayer(float duration)
+    {
+        Debug.Log("Frozen player: " + name + " at " + Time.time);
+        _rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
+        Debug.Log(duration);
+        yield return new WaitForSeconds(duration);
+
+        Debug.Log("Unfroze player: " + name + " at " + Time.time);
+        _rb.constraints = RigidbodyConstraints2D.None;
     }
 }
