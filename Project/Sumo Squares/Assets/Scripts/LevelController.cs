@@ -6,7 +6,6 @@ using UnityEngine;
 /// <summary>
 /// Controller for the current level.
 /// </summary>
-[RequireComponent(typeof(CircleCollider2D))]
 public class LevelController : MonoBehaviour
 {
     /// <summary>
