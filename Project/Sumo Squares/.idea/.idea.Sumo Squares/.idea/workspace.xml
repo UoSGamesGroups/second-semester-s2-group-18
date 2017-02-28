@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SceneLoader.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SceneLoader.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1487709856540" expanded="true" signature="6:53" ph="..." />
                 <marker date="1487709856540" expanded="true" signature="55:315" ph="/// Manages loading and unloading of scenes. ... " />
@@ -54,6 +54,47 @@
                 <marker date="1487709856540" expanded="true" signature="1394:1470" ph="{...}" />
                 <marker date="1487709856540" expanded="true" signature="1515:1587" ph="{...}" />
                 <marker date="1487709856540" expanded="true" signature="1615:1691" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <marker date="1488313536586" expanded="true" signature="6:106" ph="..." />
+                <marker date="1488313536586" expanded="true" signature="158:224" ph="/// Controller for the current level. ... " />
+                <marker date="1488313536586" expanded="true" signature="269:1511" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="276:356" ph="/// A list of current players in the match. ... " />
+                <marker date="1488313536586" expanded="true" signature="413:493" ph="/// The current running state of the match. ... " />
+                <marker date="1488313536586" expanded="true" signature="582:701" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="759:887" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="811:881" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="938:1055" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="994:1049" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="1061:1222" ph="/// Should be called when a player should be removed from the game. ... " />
+                <marker date="1488313536586" expanded="true" signature="1269:1508" ph="{...}" />
+                <marker date="1488313536586" expanded="true" signature="1320:1387" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1487500158686" expanded="true" signature="6:40" ph="..." />
+                <marker date="1487500158686" expanded="true" signature="42:98" ph="/// The main UI controller. ... " />
+                <marker date="1487500158686" expanded="true" signature="140:879" ph="{...}" />
+                <marker date="1487500158686" expanded="true" signature="401:689" ph="{...}" />
+                <marker date="1487500158686" expanded="true" signature="565:683" ph="{...}" />
+                <marker date="1487500158686" expanded="true" signature="747:877" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -156,7 +197,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollowScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpecialFloor.cs" />
@@ -168,6 +208,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VelocityPowerup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
       </list>
     </option>
   </component>
@@ -220,6 +261,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sumo Squares (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sumo Squares (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,11 +355,12 @@
       <workItem from="1487496346046" duration="4784000" />
       <workItem from="1487701518591" duration="6594000" />
       <workItem from="1487709751072" duration="319000" />
+      <workItem from="1488313424360" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12926000" />
+    <option name="totallyTimeSpent" value="13640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,6 +434,121 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnchorPowerup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1487706912580" expanded="true" signature="20:125" ph="/// This powerup should freeze the player in place for a set amount of time. ... " />
+            <marker date="1487706912580" expanded="true" signature="169:254" ph="/// The duration for which the player is frozen. ... " />
+            <marker date="1487706912580" expanded="true" signature="334:595" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MassPowerup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1487701605328" expanded="true" signature="106:184" ph="/// This powerup will increase the player's mass. ... " />
+            <marker date="1487701605328" expanded="true" signature="226:317" ph="/// How much the picking up players mass is increased. ... " />
+            <marker date="1487701605328" expanded="true" signature="407:672" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VelocityPowerup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <marker date="1487706878676" expanded="true" signature="65:181" ph="/// How much the picking up players acceleration and max velocity is increased. ... " />
+            <marker date="1487706878676" expanded="true" signature="275:743" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerupManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1487706880997" expanded="true" signature="6:52" ph="..." />
+            <marker date="1487706880997" expanded="true" signature="54:177" ph="/// This is a singleton powerup manager, that keeps track of all current powerups in the game. ... " />
+            <marker date="1487706880997" expanded="true" signature="429:441" ph="{...}" />
+            <marker date="1487706880997" expanded="true" signature="471:532" ph="{...}" />
+            <marker date="1487706880997" expanded="true" signature="575:620" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Powerup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1487704026015" expanded="true" signature="20:136" ph="/// This is the abstract powerup class that should be implemented by all powerup types. ... " />
+            <marker date="1487704026015" expanded="true" signature="189:275" ph="/// The rate at which the gameobject will rotate. ... " />
+            <marker date="1487704026015" expanded="true" signature="365:438" ph="{...}" />
+            <marker date="1487704026015" expanded="true" signature="496:583" ph="{...}" />
+            <marker date="1487704026015" expanded="true" signature="589:809" ph="/// This method should implement the functionality of what happens when a player consumes (picks up) a powerup. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="89" column="22" lean-forward="false" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+          <folding>
+            <marker date="1487706910012" expanded="true" signature="6:44" ph="..." />
+            <marker date="1487706910012" expanded="true" signature="46:115" ph="/// The main player movement controller. ... " />
+            <marker date="1487706910012" expanded="true" signature="405:573" ph="/// The max velocity multiplier whilst boosting is derived from the current max velocity and the boost velocity ... " />
+            <marker date="1487706910012" expanded="true" signature="626:715" ph="/// The rate at which stamina regenerates passively. ... " />
+            <marker date="1487706910012" expanded="true" signature="756:867" ph="/// The rate at which stamina drains whilst the player uses the boost key. ... " />
+            <marker date="1487706910012" expanded="true" signature="988:1167" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1225:1451" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1317:1445" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1475:1837" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1515:1565" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1601:1653" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1690:1743" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1779:1831" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="1843:2059" ph="/// Moves the player in the given direction, whilst making sure the velocity doesn't exceed the max velocity. ... " />
+            <marker date="1487706910012" expanded="true" signature="2092:2771" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="2280:2576" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="2589:2765" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="2811:2871" ph="{...}" />
+            <marker date="1487706910012" expanded="true" signature="2877:3171" ph="/// Constrains translation and rotation of the player for the given duration. ... " />
+            <marker date="1487706910012" expanded="true" signature="3224:3566" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1487709856540" expanded="true" signature="6:53" ph="..." />
+            <marker date="1487709856540" expanded="true" signature="55:315" ph="/// Manages loading and unloading of scenes. ... " />
+            <marker date="1487709856540" expanded="true" signature="356:1693" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="402:479" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="517:590" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="634:713" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="750:825" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="875:957" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="1009:1087" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="1136:1220" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="1262:1342" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="1394:1470" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="1515:1587" ph="{...}" />
+            <marker date="1487709856540" expanded="true" signature="1615:1691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnchorPowerup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -627,20 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SpecialFloor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -748,10 +917,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487500158686" expanded="true" signature="6:40" ph="..." />
+            <marker date="1487500158686" expanded="true" signature="42:98" ph="/// The main UI controller. ... " />
+            <marker date="1487500158686" expanded="true" signature="140:879" ph="{...}" />
+            <marker date="1487500158686" expanded="true" signature="401:689" ph="{...}" />
+            <marker date="1487500158686" expanded="true" signature="565:683" ph="{...}" />
+            <marker date="1487500158686" expanded="true" signature="747:877" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1487709856540" expanded="true" signature="6:53" ph="..." />
             <marker date="1487709856540" expanded="true" signature="55:315" ph="/// Manages loading and unloading of scenes. ... " />
@@ -767,6 +951,28 @@
             <marker date="1487709856540" expanded="true" signature="1394:1470" ph="{...}" />
             <marker date="1487709856540" expanded="true" signature="1515:1587" ph="{...}" />
             <marker date="1487709856540" expanded="true" signature="1615:1691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LevelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <marker date="1488313536586" expanded="true" signature="6:106" ph="..." />
+            <marker date="1488313536586" expanded="true" signature="158:224" ph="/// Controller for the current level. ... " />
+            <marker date="1488313536586" expanded="true" signature="269:1511" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="276:356" ph="/// A list of current players in the match. ... " />
+            <marker date="1488313536586" expanded="true" signature="413:493" ph="/// The current running state of the match. ... " />
+            <marker date="1488313536586" expanded="true" signature="582:701" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="759:887" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="811:881" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="938:1055" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="994:1049" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="1061:1222" ph="/// Should be called when a player should be removed from the game. ... " />
+            <marker date="1488313536586" expanded="true" signature="1269:1508" ph="{...}" />
+            <marker date="1488313536586" expanded="true" signature="1320:1387" ph="{...}" />
           </folding>
         </state>
       </provider>

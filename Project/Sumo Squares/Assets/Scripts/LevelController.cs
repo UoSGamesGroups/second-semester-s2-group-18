@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // TODO: Consider using singleton design pattern.
 /// <summary>
@@ -28,6 +29,10 @@ public class LevelController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("TitleScene");
+        }
     }
 
     private void OnTriggerExit2D(Collider2D coll)
@@ -52,4 +57,5 @@ public class LevelController : MonoBehaviour
         CurrentPlayers.Remove(player.gameObject);
         MatchActive = false;
     }
+
 }
