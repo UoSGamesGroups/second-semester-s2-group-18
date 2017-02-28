@@ -2,10 +2,15 @@ Mono path[0] = 'C:/Users/Administrator/Desktop/lyut/second-semester-s2-group-18/
 Mono path[1] = 'C:/Users/Administrator/Desktop/lyut/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data/Mono'
 Mono config path = 'C:/Users/Administrator/Desktop/lyut/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Administrator/Desktop/lyut/second-semester-s2-group-18/Project/Sumo Squares/Build/Windows/x86_64/Demo_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55260
-Multi-casting "[IP] 10.128.3.92 [Port] 55260 [Flags] 2 [Guid] 2001287317 [EditorId] 3279889858 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-5PTATBL) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55260]
-PlayerConnection already initialized - listening to [0.0.0.0:55260]
+PlayerConnection initialized network socket : 0.0.0.0 55353
+Socket: bind failed, error: An attempt was made to access a socket in a way forbidden by its access permissions.
+(10013)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Network/Sockets.cpp Line: 423)
+
+Multi-casting "[IP] 10.128.3.92 [Port] 55353 [Flags] 2 [Guid] 2422170375 [EditorId] 3279889858 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-5PTATBL) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55353]
+PlayerConnection already initialized - listening to [0.0.0.0:55353]
 Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,22 +30,22 @@ Platform assembly: C:\Users\Administrator\Desktop\lyut\second-semester-s2-group-
 Loading C:\Users\Administrator\Desktop\lyut\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Administrator\Desktop\lyut\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Administrator\Desktop\lyut\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.020 seconds
+- Completed reload, in  0.022 seconds
 Platform assembly: C:\Users\Administrator\Desktop\lyut\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Administrator\Desktop\lyut\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.122263 ms
+UnloadTime: 1.035461 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.552100 ms
+UnloadTime: 4.032757 ms
 System memory in use before: 17.5 MB.
 System memory in use after: 17.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 375.
-Total: 0.248674 ms (FindLiveObjects: 0.037829 ms CreateObjectMapping: 0.024926 ms MarkObjects: 0.170964 ms  DeleteObjects: 0.010263 ms)
+Total: 0.163339 ms (FindLiveObjects: 0.016715 ms CreateObjectMapping: 0.009677 ms MarkObjects: 0.126390 ms  DeleteObjects: 0.008504 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 350c -> priority: 1 
-  Thread -> id: 2f44 -> priority: 1 
+  Thread -> id: 2e10 -> priority: 1 
+  Thread -> id: 193c -> priority: 1 
