@@ -1,0 +1,30 @@
+playtset 1
+Not enough tutorials/help
+Camera needs work, didn't show enough level.
+Clearer Screen, Less Powerups
+
+Playtest 2
+Confusing RUles
+Camera made it confusing
+Remove Anchor
+Add Character Art
+
+Playtest 3
+Too many things to avoid
+Remove the swamp
+
+Playtest 4
+Confused with powerups
+Camera
+
+
+Playtest 5
+Physics too slidey
+
+
+Playtest 6
+Less Risk
+Too slidey physics
+
+Playtest 7
+Fix Colliders
