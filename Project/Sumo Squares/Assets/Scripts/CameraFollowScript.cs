@@ -8,6 +8,7 @@ using UnityEngine;
 public class CameraFollowScript : MonoBehaviour
 {
     public GameObject Player1, Player2;
+    public float minCameraDistance, maxCameraDistance;
 
     /// <summary>
     /// The speed at which the camera moves back to the center of the stage or to the last player alive.
@@ -72,8 +73,12 @@ public class CameraFollowScript : MonoBehaviour
         // Adjust ortho size if we're using one of those
         if (cam.orthographic)
         {
+            if(distance > maxCameraDistance)
+            {
+                distance = maxCameraDistance;
+            }
             // The camera's forward vector is irrelevant, only this size will matter
-            cam.orthographicSize = Mathf.Max(distance, 6.5f);
+            cam.orthographicSize = Mathf.Max(distance, minCameraDistance);
         }
         // You specified to use MoveTowards instead of Slerp
         cam.transform.position = Vector3.Slerp(cam.transform.position, cameraDestination, followTimeDelta);
