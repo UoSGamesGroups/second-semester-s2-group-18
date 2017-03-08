@@ -65,6 +65,15 @@ public class PlayerMovement : MonoBehaviour
         {
             Move(Vector2.left);
         }
+        // Problem with below code is that it means that after getting pushed by an opponent, not much really happens
+        // if you're not holding any keys. :(
+//        if (!Input.GetKey(MoveUp) || !Input.GetKey(MoveDown) || !Input.GetKey(MoveLeft) || !Input.GetKey(MoveRight))
+//        {
+//            if (_rb.velocity.magnitude > float.Epsilon)
+//            {
+//                _rb.velocity = _rb.velocity * 0.9f;
+//            }
+//        }
     }
 
     /// <summary>
@@ -76,13 +85,13 @@ public class PlayerMovement : MonoBehaviour
         // Multiply forces added by 1000 to make up for the deltatime, since it's such a tiny number.
         if (Input.GetKey(BoostKey) && _pstats.GetStamina() > 0 + float.Epsilon)
         {
-            _rb.AddForce(direction * PlayerVelocity * BoostVelocityMultiplier * 1000 * Time.deltaTime);
+            _rb.AddForce(direction * PlayerVelocity * BoostVelocityMultiplier * 1000 * Time.deltaTime, ForceMode2D.Impulse);
             _pstats.SetStamina(_pstats.GetStamina() - StaminaBoostDrainRate);
             _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, _boostMaxVelocityMultiplier);
         }
         else
         {
-            _rb.AddForce(direction * PlayerVelocity * 1000 * Time.deltaTime);
+            _rb.AddForce(direction * PlayerVelocity * 1000 * Time.deltaTime, ForceMode2D.Impulse);
             _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, MaxVelocity);
         }
     }
