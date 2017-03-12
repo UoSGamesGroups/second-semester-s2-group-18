@@ -22,6 +22,7 @@ public class LevelController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        GetComponent<Timer>().ResetTimer();
         MatchActive = true;
         CurrentPlayers = GameObject.FindGameObjectsWithTag("Player").ToList();
     }
