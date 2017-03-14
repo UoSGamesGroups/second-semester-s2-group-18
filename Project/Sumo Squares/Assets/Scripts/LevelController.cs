@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,12 +20,24 @@ public class LevelController : MonoBehaviour
     /// </summary>
     public static bool MatchActive;
 
+
+    // TODO: Refactor this code and clean.
+    public static bool BestOf5;
+
+    public static int MaxRounds;
+    public static int CurrentRound;
+
+    public static int Player1Rounds;
+    public static int Player2Rounds;
+
     // Use this for initialization
     void Start()
     {
         GetComponent<Timer>().ResetTimer();
         MatchActive = true;
         CurrentPlayers = GameObject.FindGameObjectsWithTag("Player").ToList();
+        MaxRounds = BestOf5 ? 3 : 2;
+        CurrentRound = 1;
     }
 
     // Update is called once per frame
@@ -56,7 +69,64 @@ public class LevelController : MonoBehaviour
         }
         Destroy(player.gameObject);
         CurrentPlayers.Remove(player.gameObject);
+
+        ResetGame(player);
         MatchActive = false;
+    }
+
+    // TODO: Refactor this code and clean.
+    private static void ResetGame(GameObject deadPlayer)
+    {
+        if (deadPlayer.gameObject.name.Contains("1"))
+        {
+            print("Increasing Player 2 Rounds");
+            Player2Rounds++;
+        }
+        else
+        {
+            print("Increasing Player 1 Rounds");
+            Player1Rounds++;
+        }
+
+        print("Increasing Current Round");
+        CurrentRound++;
+        if (BestOf5)
+        {
+            // Game Over
+            if (Player1Rounds == MaxRounds)
+            {
+                print("Player 1 wins!");
+                MatchEndScreen.WinningPlayer = "Player 1";
+                SceneManager.LoadScene("MatchEndScene");
+                return;
+            }
+            if (Player2Rounds == MaxRounds)
+            {
+                print("Player 2 wins!");
+                MatchEndScreen.WinningPlayer = "Player 2";
+                SceneManager.LoadScene("MatchEndScene");
+                return;
+            }
+        }
+        else
+        {
+            // Game Over
+            if (Player1Rounds == MaxRounds)
+            {
+                print("Player 1 wins!");
+                MatchEndScreen.WinningPlayer = "Player 1";
+                SceneManager.LoadScene("MatchEndScene");
+                return;
+            }
+            if (Player2Rounds == MaxRounds)
+            {
+                print("Player 2 wins!");
+                MatchEndScreen.WinningPlayer = "Player 2";
+                SceneManager.LoadScene("MatchEndScene");
+                return;
+            }
+        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }

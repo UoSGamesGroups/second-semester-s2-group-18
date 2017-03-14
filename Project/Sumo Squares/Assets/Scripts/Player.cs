@@ -5,6 +5,8 @@
 /// </summary>
 public class Player : MonoBehaviour
 {
+
+    public int RoundsWon;
     // Use this for initialization
     void Start()
     {
