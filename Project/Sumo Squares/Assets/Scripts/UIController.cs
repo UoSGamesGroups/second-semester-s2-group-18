@@ -8,7 +8,7 @@ public class UIController : MonoBehaviour
 {
     public GameObject Player1;
     public GameObject Player2;
-    public Slider[] PlayerStaminaSliders = new Slider[2];
+    public Image[] PlayerStaminaSliders = new Image[2];
 
     public GameObject[] RoundCounterBlue = new GameObject[3];
     public GameObject[] RoundCounterRed = new GameObject[3];
@@ -29,8 +29,9 @@ public class UIController : MonoBehaviour
 
         foreach (var slider in PlayerStaminaSliders)
         {
-            slider.maxValue = PlayerStats.MaxStamina;
-            slider.value = slider.maxValue;
+            //slider.maxValue = PlayerStats.MaxStamina;
+            //slider.value = slider.maxValue;
+            slider.fillAmount = 1;
         }
 
         // TODO: Refactor this code and clean.
@@ -46,8 +47,8 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerStaminaSliders[0].value = _ps1.GetStamina();
-        PlayerStaminaSliders[1].value = _ps2.GetStamina();
+        PlayerStaminaSliders[0].fillAmount = _ps1.GetStamina() / PlayerStats.MaxStamina;
+        PlayerStaminaSliders[1].fillAmount = _ps2.GetStamina() / PlayerStats.MaxStamina;
 
         // TODO: Refactor this code and clean.
         if (LevelController.Player1Rounds >= 1)
