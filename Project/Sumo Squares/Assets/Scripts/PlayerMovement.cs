@@ -85,13 +85,13 @@ public class PlayerMovement : MonoBehaviour
         // Multiply forces added by 1000 to make up for the deltatime, since it's such a tiny number.
         if (Input.GetKey(BoostKey) && _pstats.GetStamina() > 0 + float.Epsilon)
         {
-            _rb.AddForce(direction * PlayerVelocity * BoostVelocityMultiplier * 1000 * Time.deltaTime, ForceMode2D.Impulse);
+            _rb.AddForce(direction * PlayerVelocity * BoostVelocityMultiplier * 1000 * Time.deltaTime);
             _pstats.SetStamina(_pstats.GetStamina() - StaminaBoostDrainRate);
             _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, _boostMaxVelocityMultiplier);
         }
         else
         {
-            _rb.AddForce(direction * PlayerVelocity * 1000 * Time.deltaTime, ForceMode2D.Impulse);
+            _rb.AddForce(direction * PlayerVelocity * 1000 * Time.deltaTime);
             _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, MaxVelocity);
         }
     }

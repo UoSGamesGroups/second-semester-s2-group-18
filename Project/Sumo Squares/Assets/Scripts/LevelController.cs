@@ -47,6 +47,12 @@ public class LevelController : MonoBehaviour
         {
             SceneManager.LoadScene("TitleScene");
         }
+
+        if (GetComponent<Timer>().GetSecondsRemaining() <= float.Epsilon)
+        {
+            MatchActive = false;
+            ProcessRound();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D coll)
@@ -70,12 +76,11 @@ public class LevelController : MonoBehaviour
         Destroy(player.gameObject);
         CurrentPlayers.Remove(player.gameObject);
 
-        ResetGame(player);
         MatchActive = false;
+        ProcessRound(player);
     }
 
-    // TODO: Refactor this code and clean.
-    private static void ResetGame(GameObject deadPlayer)
+    private static void ProcessRound(GameObject deadPlayer)
     {
         if (deadPlayer.gameObject.name.Contains("1"))
         {
@@ -90,42 +95,61 @@ public class LevelController : MonoBehaviour
 
         print("Increasing Current Round");
         CurrentRound++;
-        if (BestOf5)
+
+        if (Player1Rounds == MaxRounds)
         {
-            // Game Over
-            if (Player1Rounds == MaxRounds)
+            print("Player 1 wins!");
+            MatchEndScreen.WinningPlayer = "Player 1";
+            SceneManager.LoadScene("MatchEndScene");
+            return;
+        }
+        if (Player2Rounds == MaxRounds)
+        {
+            print("Player 2 wins!");
+            MatchEndScreen.WinningPlayer = "Player 2";
+            SceneManager.LoadScene("MatchEndScene");
+            return;
+        }
+        // Reset the arena.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    /// <summary>
+    /// Ends the game with a draw.
+    /// </summary>
+    private static void ProcessRound()
+    {
+        Player1Rounds++;
+        Player2Rounds++;
+        CurrentRound++;
+        if (Player1Rounds == MaxRounds || Player2Rounds == MaxRounds)
+        {
+            if (Player1Rounds == Player2Rounds)
             {
-                print("Player 1 wins!");
-                MatchEndScreen.WinningPlayer = "Player 1";
+                print("Draw!");
+                MatchEndScreen.WinningPlayer = "Both";
                 SceneManager.LoadScene("MatchEndScene");
                 return;
             }
-            if (Player2Rounds == MaxRounds)
+            else
             {
-                print("Player 2 wins!");
-                MatchEndScreen.WinningPlayer = "Player 2";
-                SceneManager.LoadScene("MatchEndScene");
-                return;
+                if (Player1Rounds > Player2Rounds)
+                {
+                    print("Player 1 wins!");
+                    MatchEndScreen.WinningPlayer = "Player 1";
+                    SceneManager.LoadScene("MatchEndScene");
+                    return;
+                }
+                else
+                {
+                    print("Player 2 wins!");
+                    MatchEndScreen.WinningPlayer = "Player 2";
+                    SceneManager.LoadScene("MatchEndScene");
+                    return;
+                }
             }
         }
-        else
-        {
-            // Game Over
-            if (Player1Rounds == MaxRounds)
-            {
-                print("Player 1 wins!");
-                MatchEndScreen.WinningPlayer = "Player 1";
-                SceneManager.LoadScene("MatchEndScene");
-                return;
-            }
-            if (Player2Rounds == MaxRounds)
-            {
-                print("Player 2 wins!");
-                MatchEndScreen.WinningPlayer = "Player 2";
-                SceneManager.LoadScene("MatchEndScene");
-                return;
-            }
-        }
+        // Reset the arena.
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
