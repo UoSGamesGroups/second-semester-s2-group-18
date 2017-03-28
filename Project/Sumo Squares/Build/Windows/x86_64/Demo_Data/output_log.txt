@@ -2,98 +2,146 @@ Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
     Vendor:   NVIDIA
-    VRAM:     8119 MB
+    VRAM:     2016 MB
     Driver:   21.21.13.7878
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.020 seconds
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\lyut\Desktop\Uni\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.128 seconds
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Blake\Documents\second-semester-s2-group-18\Project\Sumo Squares\Build\Windows\x86_64\Demo_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.848949 ms
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.593348 ms
+UnloadTime: 2.504102 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.837257 ms
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 294.
-Total: 0.213040 ms (FindLiveObjects: 0.014904 ms CreateObjectMapping: 0.030392 ms MarkObjects: 0.157808 ms  DeleteObjects: 0.009643 ms)
-
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 133c -> priority: 1 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.183268 ms
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 448.
-Total: 0.178264 ms (FindLiveObjects: 0.028931 ms CreateObjectMapping: 0.006721 ms MarkObjects: 0.124200 ms  DeleteObjects: 0.018118 ms)
-
-Increasing Player 1 Rounds
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Increasing Current Round
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 418.
+Total: 0.496780 ms (FindLiveObjects: 0.036885 ms CreateObjectMapping: 0.043325 ms MarkObjects: 0.393150 ms  DeleteObjects: 0.023126 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.301881 ms
+UnloadTime: 5.284552 ms
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 448.
-Total: 0.183524 ms (FindLiveObjects: 0.031561 ms CreateObjectMapping: 0.007013 ms MarkObjects: 0.142319 ms  DeleteObjects: 0.002045 ms)
-
-Increasing Player 2 Rounds
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Increasing Current Round
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.296328 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 448.
-Total: 0.196091 ms (FindLiveObjects: 0.031561 ms CreateObjectMapping: 0.006721 ms MarkObjects: 0.154593 ms  DeleteObjects: 0.002337 ms)
-
-Increasing Player 2 Rounds
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Increasing Current Round
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player 2 wins!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.473654 ms (FindLiveObjects: 0.056791 ms CreateObjectMapping: 0.035128 ms MarkObjects: 0.343091 ms  DeleteObjects: 0.038056 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.398319 ms
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 281.
-Total: 0.132091 ms (FindLiveObjects: 0.014027 ms CreateObjectMapping: 0.005844 ms MarkObjects: 0.103744 ms  DeleteObjects: 0.007890 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.312401 ms
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 272.
-Total: 0.227945 ms (FindLiveObjects: 0.038867 ms CreateObjectMapping: 0.018703 ms MarkObjects: 0.150502 ms  DeleteObjects: 0.018995 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.280547 ms
+UnloadTime: 0.810891 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 294.
-Total: 0.137643 ms (FindLiveObjects: 0.011689 ms CreateObjectMapping: 0.005844 ms MarkObjects: 0.114849 ms  DeleteObjects: 0.004968 ms)
+Total: 0.411885 ms (FindLiveObjects: 0.033079 ms CreateObjectMapping: 0.031908 ms MarkObjects: 0.330796 ms  DeleteObjects: 0.015222 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 73c -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.910130 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 448.
+Total: 0.628513 ms (FindLiveObjects: 0.050644 ms CreateObjectMapping: 0.033372 ms MarkObjects: 0.474239 ms  DeleteObjects: 0.069672 ms)
+
+Triggered!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exited Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Touched a powerup
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player  Player 2 ate a velocity powerup: VelocityPowerup (2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.232437 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 448.
+Total: 0.609778 ms (FindLiveObjects: 0.059133 ms CreateObjectMapping: 0.034836 ms MarkObjects: 0.506441 ms  DeleteObjects: 0.008489 ms)
+
+Triggered!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exited Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Triggered!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exited Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Triggered!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exited Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Triggered!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Entered Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Exited Ice!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Draw!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.096020 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 0.480094 ms (FindLiveObjects: 0.044496 ms CreateObjectMapping: 0.032494 ms MarkObjects: 0.367096 ms  DeleteObjects: 0.035128 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.762589 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.497366 ms (FindLiveObjects: 0.036885 ms CreateObjectMapping: 0.032494 ms MarkObjects: 0.354216 ms  DeleteObjects: 0.072599 ms)
+
+Quitting Game
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
