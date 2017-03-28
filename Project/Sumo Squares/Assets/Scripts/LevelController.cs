@@ -99,6 +99,9 @@ public class LevelController : MonoBehaviour
         if (Player1Rounds == MaxRounds)
         {
             print("Player 1 wins!");
+            Player1Rounds = 0;
+            Player2Rounds = 0;
+            CurrentRound = 0;
             MatchEndScreen.WinningPlayer = "Player 1";
             SceneManager.LoadScene("MatchEndScene");
             return;
@@ -106,6 +109,9 @@ public class LevelController : MonoBehaviour
         if (Player2Rounds == MaxRounds)
         {
             print("Player 2 wins!");
+            Player1Rounds = 0;
+            Player2Rounds = 0;
+            CurrentRound = 0;
             MatchEndScreen.WinningPlayer = "Player 2";
             SceneManager.LoadScene("MatchEndScene");
             return;
@@ -128,6 +134,9 @@ public class LevelController : MonoBehaviour
             {
                 print("Draw!");
                 MatchEndScreen.WinningPlayer = "Both";
+                Player1Rounds = 0;
+                Player2Rounds = 0;
+                CurrentRound = 0;
                 SceneManager.LoadScene("MatchEndScene");
                 return;
             }
@@ -137,6 +146,9 @@ public class LevelController : MonoBehaviour
                 {
                     print("Player 1 wins!");
                     MatchEndScreen.WinningPlayer = "Player 1";
+                    Player1Rounds = 0;
+                    Player2Rounds = 0;
+                    CurrentRound = 0;
                     SceneManager.LoadScene("MatchEndScene");
                     return;
                 }
@@ -144,6 +156,9 @@ public class LevelController : MonoBehaviour
                 {
                     print("Player 2 wins!");
                     MatchEndScreen.WinningPlayer = "Player 2";
+                    Player1Rounds = 0;
+                    Player2Rounds = 0;
+                    CurrentRound = 0;
                     SceneManager.LoadScene("MatchEndScene");
                     return;
                 }
