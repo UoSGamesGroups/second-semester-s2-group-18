@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/RoundSelect.unity
+- path: Assets/_Scenes/PlaytestingScene.unity
   isLoaded: 1
   isActive: 1
