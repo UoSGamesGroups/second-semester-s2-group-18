@@ -3,13 +3,18 @@
 /// <summary>
 /// The main player class.
 /// </summary>
+[RequireComponent(typeof(AudioSource))]
 public class Player : MonoBehaviour
 {
 
     public int RoundsWon;
+    private AudioSource audio;
+
+    public AudioClip[] punches;
     // Use this for initialization
     void Start()
     {
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +28,20 @@ public class Player : MonoBehaviour
         {
             print("Touched a powerup");
             other.GetComponent<Powerup>().Consume(gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            print("Touched another player");
+            if(!audio.isPlaying)
+            {
+                int index = Random.Range(0, punches.Length);
+                audio.clip = punches[index];
+                audio.Play();
+            }
         }
     }
 }
