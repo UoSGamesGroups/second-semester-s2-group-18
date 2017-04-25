@@ -1,0 +1,18 @@
+This elements should be placed onto the level, perhaps on a different layer, so
+it informs the player of what to do
+
+there are separate elements for:
+
+player 1 movement
+player 1 boost
+these should be placed with player 1
+
+player 2 movement
+player 2 boost
+these should be placed with player 2
+
+the transparency has been lowered, so the player can see their character through
+this. The text is aiming to be non-invasive
+
+and the last element, the win condition, should be placed in the middle of the
+level, so the players can see it when they collide for the first time
