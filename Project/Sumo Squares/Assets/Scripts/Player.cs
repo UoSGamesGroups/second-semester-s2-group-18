@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             print("Touched another player");
+            Camera.main.gameObject.GetComponent<CameraShake>().Shake(1000, 1);
             if(!audio.isPlaying)
             {
                 int index = Random.Range(0, punches.Length);

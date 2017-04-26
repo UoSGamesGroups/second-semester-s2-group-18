@@ -11,6 +11,11 @@ public class RoundSounds : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if(!LevelController.MatchActive)
+        {
+            GetComponent<AudioSource>().Play();
+        }
 	}
+
+    
 }
